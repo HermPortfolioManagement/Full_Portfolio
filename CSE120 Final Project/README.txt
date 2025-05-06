@@ -1,4 +1,4 @@
-This folder contains all of the files fr my CSE 120 Final project.
+This folder contains all of the files for my CSE 120 Final project.
 
 Inventory:
 
