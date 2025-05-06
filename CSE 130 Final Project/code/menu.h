@@ -34,7 +34,7 @@ int displayGuide() { // start ASCII guide function
 		 
 	return safeExit;
 	
-} // end hell
+} // end function
 
 int menu() { // start menu function
 	
