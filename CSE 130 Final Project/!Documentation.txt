@@ -1,0 +1,73 @@
+FILES
+-------------------------------
+
+!Design.txt - contains directives, breakdowns, and details
+!TODO.txt - contains current todo list
+main.cpp - runs program
+SEC.h - contains security related code
+class.h - contains classes and subclasses
+menu.h - contains menus and exit
+runtime.h - handles initiation of patient function
+
+-----------------------------
+
+OLD CLASSES
+
+-----------------------------
+
+Symptom - contains symptom bool values - Root Abstract class
+Ilness - contains illness totals and percents - Abstract subclass - contains Paitent
+
+----------------------------
+
+CURRENT CLASS
+
+----------------------------
+
+Patient - contains patient traits, constructors, and methods
+
+------------------------------
+
+GLOBALS
+
+------------------------------
+
+safeExit - Standardized return value - found in SEC.h
+
+------------------------------
+
+FUNCTIONS
+
+----------------------------
+
+generateSymptom(int hasSymptom) - generates a symptom based on mod2 generation
+								  used in generateIllness - found in patient class
+								  
+generateIllness(int patientTotal, int covidTotal = 0, int fluTotal = 0, int coldTotal = 0, int otherTotal = 0) -
+			
+				uses generateSymptom to toggle symptoms for patients - found in
+				patient class
+				
+report(int covidTotal, int fluTotal, int coldTotal, int fluTotal, int patientTotal) -
+					generates the final report - found in patient class
+
+menu() - displays the opening menu - found in menu.h
+displayGuide() - displays the symptom guide - found in menu.h
+
+gernerationError() - error message for out of range generations - found in SEC.h
+invalidInput() - error message for invalid user inputs - found in SEC.h
+forceChange() - used in main to force a full compile -- use by commenting
+				and uncommenting as necessary -- found in sec.h
+
+--------------------------
+
+OLD FUNCTIONS
+
+-------------------------
+
+illnessCheck(bool fever, bool cough, bool shortBreath, bool runnyNose, bool headAche, bool sneezing, bool fatigue) -
+				gathers patients' symptoms to compare to different illnesses
+				 found in patient class
+
+restart() - prompts the user to restart or close the program - found in menu.h
+closeProgram() - displays an exit message and closes the program - found in menu.h

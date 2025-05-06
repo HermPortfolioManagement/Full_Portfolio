@@ -1,0 +1,17 @@
+Make patient class constructor - added 4/17 - FINISHED 4/19
+
+Implement menu - added 4/17 - FINISHED 4/19
+
+Display symptom guide - added 4/17 - FINISHED 4/19
+
+Remove vestigal classes - added 4/19 - FINISHED 4/19
+
+Switch from pointers to arg chain in class.h - Added 4/19 - FINISHED 4/20
+		Currently not passing all values, but otherwise functional
+		method illnessCheck may need to be placed within generateSymptom to keep track of totals w/o pointers
+		method now returns non-zero, but adds to much; will try to put illnessGeneration in the outer loop
+		Totals in method report() are functional, percentages are not
+		Everything works!!
+
+Diagnose and fix restart() out of scope in other functions - noncrucial- Added 4/19
+
