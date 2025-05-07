@@ -1,5 +1,3 @@
-CURRENTLY IN MIGRATION
-
 This folder contains all of the files for my CSE 120 Final project.
 
 Inventory:
