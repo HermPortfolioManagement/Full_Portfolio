@@ -1,4 +1,4 @@
-This is a growing portfolio of Thomas Joseph Herm Jr, and will likely predominately contain code from U of L courses, and Linkedin Courses.
+This is a growing portfolio of Thomas Joseph Herm Jr, and will likely predominately contain code I wrote for U of L courses, and Linkedin Courses.
 
 I try to take things a step further than course requirements, and promote good reability, organization, security, and documentation when helpful.
 
