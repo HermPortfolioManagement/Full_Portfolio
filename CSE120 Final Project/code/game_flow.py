@@ -70,7 +70,7 @@ def flow(current_round, rounds_wanted, player_points: int = 0, cpu_points: int =
     isValid = False
 
     if current_round <= rounds_wanted: # on game continue
-        while not isValid:
+        while not isValid: # start verification loop // comment added on github - 5 / 6
 
             player_answer = input("ROCK - PAPER - SCISSORS! What do you choose? ").casefold()
 
@@ -80,9 +80,18 @@ def flow(current_round, rounds_wanted, player_points: int = 0, cpu_points: int =
                         game_round(player_answer, player_points, cpu_points, current_round, rounds_wanted)
                     case _:
                         invalidInput()
-
+                        
+                # end match case // comment added on github - 5 / 6
+            
+            # end verification loop // comment added on github - 5 / 6
+        
+    
     else: # on game over
         final(player_points, cpu_points, current_round, rounds_wanted)
+
+    # end if // comment added on github - 5 / 6
+    
+# end function // comment added on github - 5 / 6
 
 
 def start(): # start function
@@ -114,11 +123,11 @@ def start(): # start function
     #end function
 
 
-def restart():
+def restart(): # stat function // comment added on github - 5 / 6
 
     isValid = False
 
-    while not isValid:
+    while not isValid: # start verification loop // comment added on github - 5 / 6
         player_restart = input("Do you want to play again?  ").casefold()
 
         match player_restart:
@@ -135,13 +144,19 @@ def restart():
 
             case _:
                 invalidInput()
+                
+            # end match case // comment added on github - 5 / 6
+
+    # end verification loop // comment added on github - 5 / 6
+
+# end function // comment added on github - 5 / 6
 
 
 def final(player_points, cpu_points, current_round, rounds_wanted):  #current round required for tie
     print(f"The score is {player_points} to {cpu_points}")
-    if player_points > cpu_points:
+    if player_points > cpu_points: # on player win // comment added on github - 5 / 6
         print("The player wins!")
-    elif player_points == cpu_points:
+    elif player_points == cpu_points: # on tie // comment added on github - 5 / 6
         tie_response = (input("It's a draw; do you want to go for a tie breaker?  ").casefold())
 
         match tie_response:
@@ -155,27 +170,41 @@ def final(player_points, cpu_points, current_round, rounds_wanted):  #current ro
 
             case _:
                 invalidInput()
-                final(player_points, cpu_points, current_round, rounds_wanted)
+                final(player_points, cpu_points, current_round, rounds_wanted) # proper verification loops added later - may update on github on a later date // comment added on github - 5 / 6
 
-    else:
+            # end match case // comment added on github - 5 / 6
+
+    else: # on computer win // comment added on github - 5 / 6
+        
         print("The computer wins!")
+
+    # end if // comment added on github - 5 / 6
+    
     restart()
+    
+# end function // comment added on github - 5 / 6
 
 
-def victory(player_points, cpu_points, current_round, rounds_wanted):
+def victory(player_points, cpu_points, current_round, rounds_wanted): # start function // comment added on github - 5 / 6
     print("You Won this round!")
     player_points += 1
     current_round += 1
     flow(current_round, rounds_wanted, player_points, cpu_points)
 
+# end function // comment added on github - 5 / 6
 
-def defeat(player_points, cpu_points, current_round, rounds_wanted):
+
+def defeat(player_points, cpu_points, current_round, rounds_wanted): # start function // comment added on github - 5 / 6
     print("You lost this round")
     cpu_points += 1
     current_round += 1
     flow(current_round, rounds_wanted, player_points, cpu_points)
 
+# end function // comment added on github - 5 / 6
 
-def draw(player_points, cpu_points, current_round, rounds_wanted):
+
+def draw(player_points, cpu_points, current_round, rounds_wanted): # start function // comment added on github - 5 / 6
     print("It's a draw; the round will restart.")
     flow(current_round, rounds_wanted, player_points, cpu_points)
+
+# end function // comment added on github - 5 / 6
