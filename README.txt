@@ -2,7 +2,12 @@ This is a growing portfolio of Thomas Joseph Herm Jr, and will likely predominat
 
 I try to take things a step further than course requirements, and promote good reability, organization, security, and documentation when helpful.
 
-Current directory:         // as of 5 / 6 / 2025 - 9:36 pm est
+Current directory:         // as of 5 / 7 / 2025 - 3:27 pm est
+
+/Linkedin Learning
+  README.txt
+
+// end Linkedin Learning directory
 
 /U of L
   /CSE 130 Final Project
