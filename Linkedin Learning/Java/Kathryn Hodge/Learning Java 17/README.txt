@@ -1,3 +1,5 @@
+IN MIGRATION - moving to /code folder
+
 The following classes were made following the "Learning Java 17" course.
 
 The course can be found at: https://www.linkedin.com/learning/learning-java-17
