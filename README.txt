@@ -2,10 +2,32 @@ This is a growing portfolio of Thomas Joseph Herm Jr, and will likely predominat
 
 I try to take things a step further than course requirements, and promote good reability, organization, security, and documentation when helpful.
 
-Current directory:         // as of 5 / 7 / 2025 - 3:27 pm est
+Current directory:         // as of 5 / 16 / 2025 - 3:27 am est
 
 /Linkedin Learning
   README.txt
+  /Java
+    README.txt
+    /Kathryn Hodge
+      README.txt
+      /Learning Java 17
+        Readme.txt
+        Handling.Java
+        Menu.Java
+        Main.Java
+        HelloWorld.java
+        Student.Java
+        FortuneTeller.Java
+        Repeat.Java
+        TeaTime.Java
+        MealPrice.Java
+        Triangle.Java
+
+      // end Learning Java 17 directory
+
+    // end Kathryn Hodge directory
+
+  // end Java directory
 
 // end Linkedin Learning directory
 
