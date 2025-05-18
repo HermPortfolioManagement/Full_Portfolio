@@ -45,12 +45,12 @@ public class Menu {
 
     } // end method
 
-    public static void start() {
+    public static void start() { // class entry point -- comment added on github -- 5/17
 
         String choice = "";
         boolean isValid = false;
 
-        while (!isValid) {
+        while (!isValid) { // start validation loop -- comment added on github -- 5/17
 
             // display menu
             System.out.println("Hi, and welcome to my collection of mini programs made while following Kathryn Hodge's"
