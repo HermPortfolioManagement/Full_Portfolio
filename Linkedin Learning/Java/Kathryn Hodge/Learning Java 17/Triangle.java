@@ -82,65 +82,59 @@ public class Triangle {
         double sideALengthInput = 1;
         double sideBLengthInput = 1;
         double sideCLengthInput = 1;
-        boolean isValid = false; // will be reset after each validation
+        boolean isValid = false;
 
             // get base
-        while (!isValid) { // start validation loop
+        do { // start validation loop - while (!isValid);
 
             System.out.println("Please enter the triangle's base.");
             Scanner input = new Scanner(System.in);
             baseInput = input.nextDouble();
             isValid = checkValid(baseInput);
 
-        } // end validation loop
-
-        isValid = false;
+        } while (!isValid); // end validation loop
 
             // get height
-        while (!isValid) { // start validation loop
+        do { // start validation loop - while (!isValid);
 
             System.out.println("Now enter the triangle's height.");
             Scanner input = new Scanner(System.in);
             heightInput = input.nextDouble();
             isValid = checkValid(heightInput);
 
-        } // end validation loop
-
-        isValid = false;
+        } while (!isValid); // end validation loop
 
             // get Side A Length
-        while (!isValid) { // start validation loop
+        do { // start validation loop - while (!isValid);
 
             System.out.println("Now enter the length of the first side.");
             Scanner input = new Scanner(System.in);
             sideALengthInput = input.nextDouble();
             isValid = checkValid(sideALengthInput);
 
-        } // end validation loop
+        } while (!isValid); // end validation loop
 
         isValid = false;
 
             // get Side B Length
-        while (!isValid) { // start validation loop
+        do { // start validation loop - while (!isValid);
 
             System.out.println("Now enter the length of the second side.");
             Scanner input = new Scanner(System.in);
             sideBLengthInput = input.nextDouble();
             isValid = checkValid(sideBLengthInput);
 
-        } // end validation loop
-
-        isValid = false;
+        } while (!isValid); // end validation loop
 
             // get side C Length
-        while (!isValid) { // start validation loop
+        do { // start validation loop - while (!isValid);
 
             System.out.println("Finally, enter the length of the third side.");
             Scanner input = new Scanner(System.in);
             sideCLengthInput = input.nextDouble();
             isValid = checkValid(sideCLengthInput);
 
-        } // end validation loop
+        } while (!isValid); // end validation loop
 
         if ((baseInput <= 0) || (heightInput <= 0) || (sideALengthInput <= 0) || (sideBLengthInput <= 0)
                 || (sideCLengthInput <= 0)) { // on pass validation with improper inputs
