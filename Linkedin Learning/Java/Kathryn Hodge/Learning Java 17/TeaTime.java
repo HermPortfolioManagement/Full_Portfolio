@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TeaTime {
 
-    public static void announceTeatime() {
+    static void announceTeatime() {
 
         System.out.println("type in anything and press enter to start teatime");
         Scanner input = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class TeaTime {
 
     } // end method
 
-    public static void welcome() {
+    static void welcome() {
 
         System.out.println("Welcome to your new job!");
         announceTeatime();

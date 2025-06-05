@@ -21,7 +21,7 @@ public class Triangle {
 
     } // end constructor
 
-    public static boolean checkValid(double input) {
+    static boolean checkValid(double input) {
 
         boolean isValid = false;
 
@@ -35,7 +35,7 @@ public class Triangle {
 
     } // end method
 
-    public void displayValues() {
+    void displayValues() {
         System.out.println("This triangle's base is " + this.base + " with a height of " + this.height +
                 ", with sidelengths of " + sideALength + ", " + sideBLength + ", and " + sideCLength);
     } // end method
@@ -47,7 +47,7 @@ public class Triangle {
 
     } // end method
 
-    public void calculateTriangleType() {
+    void calculateTriangleType() {
 
         String type = "";
 
@@ -75,7 +75,7 @@ public class Triangle {
 
     } // end method
 
-    public static void getInput() {
+    static void getInput() {
 
         double baseInput = 1;
         double heightInput = 1;

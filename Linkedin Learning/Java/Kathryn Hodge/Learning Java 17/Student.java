@@ -12,7 +12,7 @@ public class Student {
 //    static char firstInitial = firstName.charAt(0);
 //    static char lastInitial = lastName.charAt(0);
 
-    public static void printMessage(String message) {
+    static void printMessage(String message) {
 
 //        System.out.println(fullName);
 //        System.out.println(firstName);

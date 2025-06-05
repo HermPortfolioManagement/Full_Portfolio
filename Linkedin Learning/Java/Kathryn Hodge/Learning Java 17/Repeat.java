@@ -5,14 +5,14 @@ public class Repeat {
     static boolean isValid = false;
     static boolean isOnRepeat = true;
 
-    static public boolean checkValid(String input) {
+    static boolean checkValid(String input) {
 
         isValid = "yes".equals(input) || "no".equals(input);
         return isValid;
 
     }  // end method
 
-    public static boolean checkRepeat(String input) {
+    static boolean checkRepeat(String input) {
 
         if ("yes".equals(input) || "no".equals(input)) { // on valid input
             isOnRepeat = "yes".equals(input);
@@ -29,7 +29,7 @@ public class Repeat {
 
         while (isOnRepeat) { // decision loop
 
-            while (!isValid) { // validation loop
+            do { // validation loop -- while (!isValid);
 
                 System.out.println("Would you like to repeat?");
                 Scanner input = new Scanner(System.in);
@@ -43,7 +43,7 @@ public class Repeat {
                     isOnRepeat = checkRepeat(choice);
                 } // end if
 
-            } // end validation loop
+            } while (!isValid); // end validation loop
 
             if (isOnRepeat) { // on repeat
                 System.out.println("The song will now repeat");

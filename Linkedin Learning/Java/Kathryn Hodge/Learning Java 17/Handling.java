@@ -49,7 +49,7 @@ public class Handling {
         String choice = "";
         boolean isValid = false;
 
-        while (!isValid) { // start validation loop
+        do { // start validation loop - while (!isValid);
 
             System.out.println("\nDo you want to go back to the main menu?");
 
@@ -58,7 +58,7 @@ public class Handling {
             choice = input.next();
             isValid = checkValid(choice);
 
-        } // end validation loop
+        } while (!isValid); // end validation loop
 
         switch (choice.toLowerCase()) {
 

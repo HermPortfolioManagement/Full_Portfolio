@@ -4,10 +4,10 @@ public class FortuneTeller {
 
     static String fortune = "";
     static int number = 0;
-    static boolean isValid = false;
+    
 
     public static boolean checkValid(int number) {
-
+        boolean isValid = false;
         isValid = number >= 1 && number <= 10;
         return isValid;
     } // end method
@@ -30,7 +30,8 @@ public class FortuneTeller {
 
     public static void start() { // Class entry point
 
-        while (!isValid) { // validation loop
+        boolean isValid = false;
+         do { // validation loop
 
             System.out.println("Pick a number between 1 and 10.");
             Scanner input = new Scanner(System.in);
@@ -39,9 +40,9 @@ public class FortuneTeller {
             isValid = checkValid(number);
             if (!isValid) {
                 Handling.invalidInput();
-            } // end if
+            }  // end if
 
-        } // end validation loop
+        } while (!isValid); // end validation loop
 
         getFortune(number);
         System.out.println(fortune);

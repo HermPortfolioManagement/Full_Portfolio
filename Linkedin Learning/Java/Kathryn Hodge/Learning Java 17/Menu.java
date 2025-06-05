@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Menu {
 
 
-    public static boolean checkValid(String input) { // used in start function
+    static boolean checkValid(String input) { // used in start function
 
         boolean isValid = false;
         switch (input.toLowerCase()) {
@@ -50,7 +50,7 @@ public class Menu {
         String choice = "";
         boolean isValid = false;
 
-        while (!isValid) { // start validation loop -- comment added on github -- 5/17
+        do { // start validation loop -- while (!isValid); -- comment altered on 6/4 
 
             // display menu
             System.out.println("Hi, and welcome to my collection of mini programs made while following Kathryn Hodge's"
@@ -62,7 +62,7 @@ public class Menu {
             choice = input.next();
             isValid = checkValid(choice);
 
-        } // end validation loop
+        } while (!isValid); // end validation loop
 
         switch (choice.toLowerCase()) {
 
