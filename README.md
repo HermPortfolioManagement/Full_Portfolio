@@ -2,7 +2,41 @@ This is a growing portfolio of Thomas Joseph Herm Jr, and will likely predominat
 
 I try to take things a step further than course requirements, and promote good reability, organization, security, and documentation when helpful.
 
-Current directory:         // as of 5 / 16 / 2025 - 3:27 am est
+
+# Readme Layout
+
+## upcoming changes
+  ### issues
+  ### possible workarounds
+  
+## directory
+
+# Upcoming Changes
+
+* Adding new branches to separate code languages
+* Changing 'readme.txt's to 'readme.md's
+
+## Purposes of code separation:
+
+* To more easily set up workspaces that different IDEs understand
+* To allow those looking to jump into whatever language(s) is/are relevant to them
+* To simulate an environment of least priviledge
+
+Do note that I'm still learning github, and I'm in school, so it may take a while.
+
+## Current issues
+
+Github forces the entire directory to be downloaded to access a branch, greatly mitigating the effectiveness of least priviledge, and simple workspace setup
+
+## Possible workarounds
+
+Setup multiple projects for different pieces of code (may be cumbersome to view, and merge changes.)
+    May be able to have a "master" portfolio to ease viewing, but merging would still likely be cumbersome.
+
+
+
+# Current directory:
+### as of 5 / 16 / 2025 - 3:27 am est
 
 /Linkedin Learning
   README.txt
