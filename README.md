@@ -6,8 +6,8 @@ I try to take things a step further than course requirements, and promote good r
 # Readme Layout
 
 ## upcoming changes
-  ### issues
-  ### possible workarounds
+  ### Current issues
+  ### Possible workarounds
   
 ## directory
 
@@ -31,7 +31,7 @@ Github forces the entire directory to be downloaded to access a branch, greatly 
 ## Possible workarounds
 
 Setup multiple projects for different pieces of code (may be cumbersome to view, and merge changes.)
-    May be able to have a "master" portfolio to ease viewing, but merging would still likely be cumbersome.
+May be able to have a "master" portfolio to ease viewing, but merging would still likely be cumbersome.
 
 
 
