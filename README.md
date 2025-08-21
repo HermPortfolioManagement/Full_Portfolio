@@ -38,63 +38,63 @@ Setup multiple projects for different pieces of code (may be cumbersome to view,
 # Current directory:
 ### as of 5 / 16 / 2025 - 3:27 am est
 
-/Linkedin Learning
-  README.txt
-  /Java
-    README.txt
-    /Kathryn Hodge
+    /Linkedin Learning
       README.txt
-      /Learning Java 17
-        Readme.txt
-        Handling.Java
-        Menu.Java
-        Main.Java
-        HelloWorld.java
-        Student.Java
-        FortuneTeller.Java
-        Repeat.Java
-        TeaTime.Java
-        MealPrice.Java
-        Triangle.Java
+      /Java
+        README.txt
+        /Kathryn Hodge
+          README.txt
+          /Learning Java 17
+            Readme.txt
+            Handling.Java
+            Menu.Java
+            Main.Java
+            HelloWorld.java
+            Student.Java
+            FortuneTeller.Java
+            Repeat.Java
+            TeaTime.Java
+            MealPrice.Java
+            Triangle.Java
 
-      // end Learning Java 17 directory
+          // end Learning Java 17 directory
 
-    // end Kathryn Hodge directory
+       // end Kathryn Hodge directory
 
-  // end Java directory
+    // end Java directory
 
-// end Linkedin Learning directory
+    // end Linkedin Learning directory
 
-/U of L
-  /CSE 130 Final Project
-    README.txt
-    /code
-      !Design.txt
-      !Documentation.txt
-      !OtherNotes
-      !TODO.txt
-      SEC.h
-      class.h
-      menu.h
-      runtime.h
-      main.cpp
+    /U of L
+      /CSE 130 Final Project
+        README.txt
+        /code
+          !Design.txt
+          !Documentation.txt
+          !OtherNotes
+          !TODO.txt
+          SEC.h
+          class.h
+          menu.h
+          runtime.h
+          main.cpp
 
-    // end code directory
+          // end code directory
 
-  // end CSE 130 Final Project directory
+      // end CSE 130 Final Project directory
 
-  /CSE 120 Final Project
-    README.txt
-    Proposal.pdf
-    Report.pdf
-    /code
-      !Documentation.txt
-      SEC.py
-      game_flow.py
-      main.py
+      /CSE 120 Final Project
+        README.txt
+        Proposal.pdf
+        Report.pdf
+        /code
+          !Documentation.txt
+          SEC.py
+          game_flow.py
+          main.py
   
-    // end code directory
+        // end code directory
   
-  // end CSE 120 Final Project directory 
+      // end CSE 120 Final Project directory 
     
-// end U of L Directory
+    // end U of L Directory
