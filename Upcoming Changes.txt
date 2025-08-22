@@ -1,9 +1,0 @@
-I will be adding new branches to separate code languages
-
-Purposes:
-
-To more easily set up workspaces that different IDEs understand
-To allow those looking to jump into whatever language(s) is/are relevant to them
-To simulate an environment of least priviledge
-
-Do note that I'm still learning github, and I'm in school, so it may take a while.
