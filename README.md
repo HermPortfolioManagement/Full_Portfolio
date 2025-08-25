@@ -31,7 +31,7 @@ Github forces the entire directory to be downloaded to access a branch, greatly 
 ## Possible workarounds
 
 * Setup multiple projects for different pieces of code (may be cumbersome to view, and merge changes.) May be able to have a "master" portfolio to ease viewing, but merging would still likely be cumbersome.
-* Create multiple accounts and/or and organization and fork the primary portfolio, with each fork focusing on its own coding branch. May still be hard to merge; much easier to view, gives experience in orgs and github use. In the hypothetical scenario, these forks may be made by those with higher access, and accessed by those who only need that code piece. Much better adherence to least privilege, may still be hard to merge, viewing may be scattered if unable to merge.
+* Create multiple accounts and/or an organization and fork the primary portfolio, with each fork focusing on its own coding branch. May still be hard to merge; much easier to view, gives experience in orgs and github use. In the hypothetical scenario, these forks may be made by those with higher access, and accessed by those who only need that code piece. Much better adherence to least privilege, may still be hard to merge, viewing may be scattered if unable to merge.
 
 
 
