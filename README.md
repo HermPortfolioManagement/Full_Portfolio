@@ -16,10 +16,10 @@ I try to take things a step further than course requirements, and promote good r
 In order to simulate a work environment that better demonstrates the concept of least privilege, and to aid in creating code-specific workspaces, a fork has been made at https://github.com/HermPortfolioManagement/Full_Portfolio. This has been further forked into separate codebases. The primary fork is attatched to the personal repo, and so there will be little to no difference between the two; the organization used creates a primary fork for organization purposes.
 
 ## Forks
-https://github.com/HermPortfolioManagement/Full_Portfolio - full portfolio
-https://github.com/HermPortfolioManagement/Java - Java portfolio
-https://github.com/HermPortfolioManagement/Python - Python portfolio
-https://github.com/HermPortfolioManagement/C_CPP - C/C++ portfolio
+* https://github.com/HermPortfolioManagement/Full_Portfolio - full portfolio
+* https://github.com/HermPortfolioManagement/Java - Java portfolio
+* https://github.com/HermPortfolioManagement/Python - Python portfolio
+* https://github.com/HermPortfolioManagement/C_CPP - C/C++ portfolio
 
 
 # Upcoming Changes
