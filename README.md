@@ -25,6 +25,9 @@ In order to simulate a work environment that better demonstrates the concept of 
 # Upcoming Changes
 I aim to transition this into a portfolio showing active workspaces; I am still learning git, and so I'll need to learn more about how to filter which changes get pulled when using forks.
 
+## Possible solution
+Create branches of the full_portfolio repo, then fork the branches instead. Add .gitignore to branches
+
 
 # Current directory:
 ### as of 8 / 26 / 2025 - 1:22 am est
