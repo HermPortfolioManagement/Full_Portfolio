@@ -3,49 +3,40 @@ This is a growing portfolio of Thomas Joseph Herm Jr, and will likely predominat
 I try to take things a step further than course requirements, and promote good reability, organization, security, and documentation when helpful.
 
 
-# Readme Layout
+# Readme Contents
 
-## upcoming changes
-  ### Current issues
-  ### Possible workarounds
-  
-## directory
+## Note on Organization
+### Forks
+
+## Upcoming Changes
+
+## Current Directory
+
+# Note on Organization
+In order to simulate a work environment that better demonstrates the concept of least privilege, and to aid in creating code-specific workspaces, a fork has been made at https://github.com/HermPortfolioManagement/Full_Portfolio. This has been further forked into separate codebases. The primary fork is attatched to the personal repo, and so there will be little to no difference between the two; the organization used creates a primary fork for organization purposes.
+
+## Forks
+https://github.com/HermPortfolioManagement/Full_Portfolio - full portfolio
+https://github.com/HermPortfolioManagement/Java - Java portfolio
+https://github.com/HermPortfolioManagement/Python - Python portfolio
+https://github.com/HermPortfolioManagement/C_CPP - C/C++ portfolio
+
 
 # Upcoming Changes
-
-* Adding new branches to separate code languages
-* Changing 'readme.txt's to 'readme.md's
-
-## Purposes of code separation:
-
-* To more easily set up workspaces that different IDEs understand
-* To allow those looking to jump into whatever language(s) is/are relevant to them
-* To simulate an environment of least privilege
-
-Do note that I'm still learning github, and I'm in school, so it may take a while.
-
-## Current issues
-
-Github forces the entire directory to be downloaded to access a branch, greatly mitigating the effectiveness of least privilege, and simple workspace setup
-
-## Possible workarounds
-
-* Setup multiple projects for different pieces of code (may be cumbersome to view, and merge changes.) May be able to have a "master" portfolio to ease viewing, but merging would still likely be cumbersome.
-* Create multiple accounts and/or an organization and fork the primary portfolio, with each fork focusing on its own coding branch. May still be hard to merge; much easier to view, gives experience in orgs and github use. In the hypothetical scenario, these forks may be made by those with higher access, and accessed by those who only need that code piece. Much better adherence to least privilege, may still be hard to merge, viewing may be scattered if unable to merge.
-
+I aim to transition this into a portfolio showing active workspaces; I am still learning git, and so I'll need to learn more about how to filter which changes get pulled when using forks.
 
 
 # Current directory:
-### as of 5 / 16 / 2025 - 3:27 am est
+### as of 8 / 26 / 2025 - 1:22 am est
 
     /Linkedin Learning
-      README.txt
+      README.md
       /Java
-        README.txt
+        README.md
         /Kathryn Hodge
-          README.txt
+          README.md
           /Learning Java 17
-            Readme.txt
+            Readme.md
             Handling.Java
             Menu.Java
             Main.Java
@@ -67,7 +58,7 @@ Github forces the entire directory to be downloaded to access a branch, greatly 
 
     /U of L
       /CSE 130 Final Project
-        README.txt
+        README.md
         /code
           !Design.txt
           !Documentation.txt
@@ -84,7 +75,7 @@ Github forces the entire directory to be downloaded to access a branch, greatly 
       // end CSE 130 Final Project directory
 
       /CSE 120 Final Project
-        README.txt
+        README.md
         Proposal.pdf
         Report.pdf
         /code
