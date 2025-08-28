@@ -8,8 +8,7 @@ I try to take things a step further than course requirements, and promote good r
 ## Note on Organization
 ### Forks
 
-## Upcoming Changes
-### Possible solution
+## Recent Changes
 
 ## Current Directory
 
@@ -23,11 +22,8 @@ In order to simulate a work environment that better demonstrates the concept of 
 * https://github.com/HermPortfolioManagement/C_CPP - C/C++ portfolio
 
 
-# Upcoming Changes
-I aim to transition this into a portfolio showing active workspaces; I am still learning git, and so I'll need to learn more about how to filter which changes get pulled when using forks.
-
-## Possible solution
-Create branches of the full_portfolio repo, then fork the branches instead. Add .gitignore to branches
+# Recent Changes
+Branches were made of each section, and the forks were remade to connect with the branches. This allows each workspace to only have the code it needs.
 
 
 # Current directory:
