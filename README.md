@@ -23,7 +23,7 @@ In order to simulate a work environment that better demonstrates the concept of 
 
 
 # Recent Changes
-Branches were made of each section, and the forks were remade to connect with the branches. This allows each workspace to only have the code it needs.
+Branches were made for each language inside the organization portfolio, and the forks were remade to connect with the branches. This allows each workspace to only have the code it needs.
 
 
 # Current directory:
