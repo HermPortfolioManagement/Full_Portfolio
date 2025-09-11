@@ -10,6 +10,8 @@ I try to take things a step further than course requirements, and promote good r
 
 ## Recent Changes
 
+## Current Issues
+
 ## Current Directory
 
 # Note on Organization
@@ -25,9 +27,12 @@ In order to simulate a work environment that better demonstrates the concept of 
 # Recent Changes
 Branches were made for each language inside the organization portfolio, and the forks were remade to connect with the branches. This allows each workspace to only have the code it needs.
 
+# Current Issues
+Github doesn't allow for partial pulls and pushes, so the branches made would want to push deletions, which is not what I want. It seems I can clean what's been tracked so far, but my attempts to do so have been unsuccessful. I'll need to keep looking for solutions.
+
 
 # Current directory:
-### as of 8 / 28 / 2025 - 4:28 am est
+### as of 9 / 11 / 2025 - 12:24 am est
 
     /Linkedin Learning
       README.md
